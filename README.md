@@ -1,6 +1,6 @@
 ﻿# Online Electronics Store
 
-A simple PHP + MySQL ecommerce project for electronics products.
+A responsive website using  PHP + MySQL ecommerce project for electronics products.
 
 This app (branded as Tech World in the UI) includes product browsing, search, cart, checkout flow, user signup/login, and order history pages.
 
@@ -45,20 +45,6 @@ osp/
 `- images/
 ```
 
-## Environment Variables
-
-Create a `.env` file in the project root:
-
-```env
-APP_ENV=local
-DB_HOST=localhost
-DB_PORT=3306
-DB_NAME=tech_world_db
-DB_USER=root
-DB_PASS=your_password_here
-```
-
-You can copy `.env.example` and update values.
 
 ## Database Setup
 
@@ -118,8 +104,7 @@ INSERT INTO products (name, description, price, image) VALUES
 1. Place project in `C:\xampp\htdocs\osp`
 2. Start Apache and MySQL in XAMPP Control Panel
 3. Create DB + tables using the SQL above
-4. Create `.env` from `.env.example`
-5. Open:
+4. Open:
 
 ```text
 http://localhost/osp/index.php
